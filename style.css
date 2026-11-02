@@ -924,3 +924,57 @@
     margin-bottom: 15px;
   }
 }
+.fifa127 {
+  width: 65%;
+  margin: 50px auto;
+}
+
+.fifa128 {
+  color: #1685c5;
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+.fifa129 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fifa130 {
+  width: 50%;
+}
+
+.fifa131 {
+  width: 42%;
+}
+
+.fifa132 {
+  margin-bottom: 20px;
+  font-size: 15px;
+  color: #333;
+}
+
+@media (max-width: 500px) {
+  .fifa127 {
+    width: 90%;
+  }
+
+  .fifa128 {
+    text-align: center;
+  }
+
+  .fifa129 {
+    display: block;
+  }
+
+  .fifa130 {
+    width: 100%;
+  }
+
+  .fifa131 {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+  }
+}
