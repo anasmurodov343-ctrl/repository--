@@ -1017,3 +1017,28 @@
     width: 100%;
   }
 }
+.fifa140 {
+  width: 65%;
+  margin: 50px auto;
+}
+
+.fifa141 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fifa142 {
+  width: 19%;
+  height: 70px;
+  border-radius: 4px;
+}
+
+@media (max-width: 500px) {
+  .fifa140 {
+    width: 95%;
+  }
+
+  .fifa142 {
+    height: 60px;
+  }
+}
