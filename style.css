@@ -1245,3 +1245,130 @@
     flex: 1;
   }
 }
+.fifa173 {
+  background-color: #3b82f6;
+  padding: 60px 20px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+.fifa174 {
+  max-width: 1000px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+.fifa175 {
+  flex: 1;
+}
+.fifa176 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+.fifa177 {
+  font-size: 15px;
+  margin-bottom: 40px;
+}
+.fifa179 {
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+.fifa180 {
+  display: flex;
+  gap: 24px;
+}
+.fifa181,.fifa183 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.fifa181 p,.fifa183 p {
+  color: #ffffff;
+  font-size: 15px;
+}
+.fifa182,.fifa184 {
+  width: 44px;
+  height: 44px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fifa182 img{
+  width: 24px;
+  height: 24px;
+}
+.fifa185 {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 32px;
+  width: 100%;
+  max-width: 420px;
+}
+.fifa187,.fifa188 {
+  margin-bottom: 20px;
+}
+.fifa187 input,.fifa188 input {
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  border-bottom: 1px solid #e2e8f0;
+  outline: none;
+  font-size: 14px;
+  color: #333;
+}
+.fifa189 {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e2e8f0;
+  margin-bottom: 20px;
+}
+.fifa190 {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  color: #718096;
+}
+.fifa189 input {
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  color: #333;
+}
+.fifa191 {
+  width: auto;
+  padding: 12px 24px;
+  background-color: #00bfa5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+@media (max-width: 500px) {
+  .fifa174 {
+    flex-direction: column;
+    text-align: center;
+  }
+  .fifa180 {
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  .fifa185 {
+    max-width: 100%;
+  }
+  .fifa191 {
+    width: 100%;
+  }
+}
